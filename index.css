@@ -1,3 +1,18 @@
+.black-han-sans-regular {
+    font-family: "Black Han Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+  }
+
+
 header{
     top: 5%;
     left: 50%;
@@ -31,4 +46,31 @@ header{
     height: 80vh;
     display: flex;
     border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    top: 50vh;
+    align-self: center;
+    display: flex;
+    width: 15vh;
+    height: 5vh;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.05s ease;
+}
+.button:active{
+    display: flex;
+    width: 14.5vh;
+    height: 4.8vh;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
 }

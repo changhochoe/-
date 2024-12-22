@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>도박 시뮬레이터</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1> 도박 시뮬레이터 </h1>
+        <h1 class="black-han-sans-regular"> 도박 시뮬레이터 </h1>
     </header>
     <div class="container">
-        <div class="status">
+        <div class="status black-han-sans-regular">
+            <div>현재 자산 :<span id="money">10000</span> 원</div>
             <div></div>
         </div>
-        <div class="action"></div>
+        <div class="action">
+            <div>베팅금액 <input type="number" min="0" step="1000" id="betting"> 원</div>
+            <div> 승리할 확률: <span id="probability"></span> % </div>
+            <div class="button black-han-sans-regular"> 베팅하기</div>
+        </div>
     </div>
+    <script src="function.js"></script>
 </body>
 </html>
