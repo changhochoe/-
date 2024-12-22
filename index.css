@@ -1,0 +1,34 @@
+header{
+    top: 5%;
+    left: 50%;
+    transform:translate(-50%, 0%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 150vh;
+    height: 80vh;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.status{
+    width: 75vh;
+    height: 80vh;
+    display: flex;
+    border: solid black 1px;
+}
+
+.action{
+    width: 75vh;
+    height: 80vh;
+    display: flex;
+    border: solid black 1px;
+}
